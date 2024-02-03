@@ -79,6 +79,18 @@ for (let i = 0; i < downArrows.length; i++) {
   });
 }
 
+document.querySelector(".bottombarheadings h4:nth-child(1)").addEventListener("click", () => {
+  scroll.scrollTo('#dummy');
+});
+
+document.querySelector(".bottombarheadings h4:nth-child(2)").addEventListener("click", () => {
+  scroll.scrollTo('#dummy2');
+});
+
+document.querySelector(".bottombarheadings h4:nth-child(3)").addEventListener("click", () => {
+  scroll.scrollTo('#dummy3');
+});
+
 cursorFollower();
 firstPageAnimations();
 

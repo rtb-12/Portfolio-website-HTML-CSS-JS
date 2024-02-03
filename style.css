@@ -252,6 +252,8 @@ html,body{
     border: 2px solid rgba(255, 255, 255, 0.423);
     border-radius: 50%;
     transition: box-shadow 0.3s ease-in-out;
+    object-fit: cover;
+    filter: saturate(0);
 }
 .container3 img:hover {
     box-shadow: 0 0 20px rgba(252, 252, 252, 0.9);
